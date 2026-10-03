@@ -1,0 +1,116 @@
+.order{
+  padding: 40px;
+  background-color: #f2ece9;
+}
+
+.order h2{
+  text-align: center;
+  color: #eb3349;
+}
+
+.order form{
+  max-width: 600px;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  border: 2px solid gold;
+  border-radius: 15px;
+  box-shadow: #8e2de2 2px 3px 5px;
+}
+
+.order label{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #8e2de2;
+  font-weight: bold;
+}
+
+.order input,
+.order select,
+.order textarea{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #f45c43;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.order textarea{
+  resize: vertical;
+}
+
+.order button{
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 25px;
+  background-color: #8e2de2;
+  color: white;
+  border: 2px solid gold;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order button:hover{
+  background-color: #eb3349;
+}
+
+footer{
+  background:#38bdf8;
+  color:#FFFACD;
+}
+
+main{
+ color:#AFEEEE;
+  background:#f97316;
+}
+
+.container {
+  width: 90%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #111827;
+  color: white;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.logo {
+  font-size: 26px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #38bdf8;
+}
+img {
+  width:375px;
+}
