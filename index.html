@@ -1,0 +1,98 @@
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container headerBox">
+      <h1 class="logo">PetMarket</h1>
+
+      <nav class="menu">
+        <a href="#about">О нас</a>
+        <a href="#products">Услуги</a>
+        <a href="#schedule">Расписание</a>
+        <a href="#order">Заявка</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section>
+          <h2>Добро пожаловать в PetMarket. Магазин, в котором есть корма, игрушки и аксессуары для ваших домашних питомцев.</h2>
+ <img src="assets/1af61de0afab4f7dbb3278971da43dbb.jpg">
+    </section>
+
+    <section>
+           <h2 class="#about">О нас</h2>
+      <h3>PetMarket-зоомагазин, которому можно доверять. Мы не экономим на домашних питомцах. В нашем магазине есть одежда, чтобы вашим сфинксам не было холодно. Корма для кошек, собак, рептилий, и птиц из разных стран от лучших производителей. Игрушки разных видов, крепкие и лёгкие, тихие и звенящие. Также есть укрытия и домики для ваших любимцев на любой вкус.</h3>
+    </section>
+
+    <section>
+        <h2 class="#products">Наши услуги</h2>
+      <h3>Не знаете что выбрать? Мы поможем вам с выбором. Также присутствует возможность самовывоза или доставки (номера, по которым можно позвонить указаны в контактах). </h3>
+      <h2>Товары: </h2>
+      <p>Корма </p>
+      <p>Игрушки </p>
+      <p>Домики и лежанки </p>
+      <p>Аквариумы и товары для аквариумов </p>
+      <p>Наполнители и средства ухода </p>
+    </section>
+
+    <section class="promo">
+          <h2>Специальное предложение</h2>
+          <p>Скидка 20% для новых клиентов при оформлении заявки через сайт.</p>
+    </section>
+
+    <section>
+        <h2 class="#schedule">Расписание</h2>
+          <table>
+            <tr><td>пн-чт</td><td> 8:30-22:00</td></tr>
+            <tr><td>пт</td><td>8:30-21:30 </td></tr>
+            <tr><td>сб-вс</td><td>8:00-21:00</td></tr>
+          </table>
+    </section>
+
+    <section>
+        <h2 class="#order">Форма заявки</h2>
+      <section class="order" id="order">
+  <h2>Заявка на выступление</h2>
+
+  <form>
+    <label for="name">Имя заказчика:</label>
+    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+    <label for="contact">Телефон или Email:</label>
+    <input type="text" id="contact" name="contact" placeholder="Телефон или email" required>
+
+    <label for="date">Дата выдачи заказа:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="type">Тип заказа:</label>
+    <select id="type" name="type">
+      <option value="concert">Игрушка</option>
+      <option value="festival">Корм</option>
+      <option value="corporate">Одежда</option>
+      <option value="party">Домики/Лежанки</option>
+      <option value="other">Другое</option>
+    </select>
+
+    <button class="btn" type="submit">Отправить заявку</button>
+    <p class="message"></p>
+  </form>
+</section>
+    </section>
+  </main>
+  <footer class="footer">
+        <section>
+        <h2 class="#contacts">Контакты</h2>
+      <h3>Наш магазин:+00000000000</h3>
+      <h3>Консультация:+00000000000</h3>
+      <h3>Заказ через звонок:+00000000000</h3>
+    </section>
+  </footer>
+
+</body>
